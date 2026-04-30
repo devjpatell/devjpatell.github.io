@@ -1,0 +1,229 @@
+<!--
+  Simplefolio - Customized for Dev Patel
+  Original template by Jacobo Martinez
+  Github: https://github.com/cobiwave/simplefolio/
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <title>Dev Patel | Software Engineer &amp; ML Enthusiast</title>
+    <meta name="keywords" content="Dev Patel, Software Engineer, Machine Learning, Computer Vision, ASP.NET Core, Angular, Python, UT Arlington" />
+    <meta name="description" content="Dev Patel — MS CS Student at UT Arlington | Software Engineer | Machine Learning & AI Enthusiast" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.scss" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Dev Patel</span>
+          <br />
+          I'm a Software Engineer &amp; ML Enthusiast.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Dev Patel Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I'm a Software Engineering graduate student at the University of Texas
+                at Arlington with 1+ year of professional experience building enterprise
+                web applications using ASP.NET Core, Angular, and Python. I've worked on
+                real-world government-scale systems and optimized production databases
+                serving thousands of users.
+              </p>
+              <p class="about-wrapper__info-text">
+                I'm actively expanding into Machine Learning and AI, with a focus on
+                Computer Vision, Generative AI, and RAG-based intelligent systems.
+                Currently seeking Software Engineering and ML internship opportunities
+                for Summer 2026.
+              </p>
+              <span class="d-flex mt-3">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/resume.pdf">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Project 1: Multi-View Geometry -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Multi-View Geometry: Classical vs Deep Feature Matching</h3>
+                <div>
+                  <p class="mb-4">
+                    Benchmarked 4 feature matching pipelines — SIFT, ORB, SuperPoint, and LightGlue —
+                    on the KITTI driving dataset across 5,600+ frames. Evaluated fundamental matrix
+                    estimation and camera pose recovery using epipolar error, inlier ratio, and
+                    rotation/translation error. Key finding: LightGlue's transformer-based matching
+                    matches SIFT-level pose accuracy (2.57 vs 2.55 degrees) on challenging low-texture
+                    highway scenes where classical binary descriptors degrade by over 270%.
+                  </p>
+                  <p class="mb-4">
+                    <strong>Tech Stack:</strong> Python · OpenCV · SuperPoint · LightGlue · KITTI · RANSAC
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" ></a>
+                <!-- href="https://github.com/devjpatell">
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/devjpatell" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Multi-View Geometry Project" class="img-fluid" src="assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project 1 -->
+
+          <!-- Project 2: Kaushal Darpan -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Kaushal Darpan – College Management System</h3>
+                <div>
+                  <p class="mb-4">
+                    Built a large-scale college management system for the Government of Rajasthan,
+                    India using ASP.NET Core and Angular. Developed modules for student records,
+                    fee management, reporting, and departmental workflows. Built secure REST APIs
+                    and optimized SQL queries, improving data retrieval performance by ~30%.
+                  </p>
+                  <p class="mb-4">
+                    <strong>Tech Stack:</strong> ASP.NET Core · Angular · MySQL · REST APIs · RDLC Reports
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Kaushal Darpan Project" class="img-fluid" src="assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project 2 -->
+
+          <!-- Project 3: NICSI -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">NICSI – Government IT Services Platform</h3>
+                <div>
+                  <p class="mb-4">
+                    Contributed to a national government IT services platform under NICSI initiatives
+                    (Government of India). Worked on backend development, REST APIs, and SQL-based
+                    data operations using ASP.NET Core. Supported reporting, validation, and secure
+                    application workflows aligned with public-sector standards.
+                  </p>
+                  <p class="mb-4">
+                    <strong>Tech Stack:</strong> ASP.NET Core · SQL Server · REST APIs · PowerShell
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="NICSI Government Project" class="img-fluid" src="assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project 3 -->
+
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            Open to Software Engineering &amp; ML Internship opportunities — let's connect!
+          </p>
+          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:devjpatelpersonal@gmail.com">
+            Email Me
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/22thedevpatel-ln" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/devjpatell" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; 2025 Dev Patel &middot; Template by
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank">Jacobo Mart&iacute;nez</a>
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
