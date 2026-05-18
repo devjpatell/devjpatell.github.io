@@ -2,25 +2,28 @@
   "name": "simplefolio",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "Dev Patel - Software Engineer & ML Enthusiast Portfolio",
   "source": "src/index.html",
+  "homepage": "https://devjpatell.github.io",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/devjpatell/devjpatell.github.io"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Dev Patel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
+    "url": "https://github.com/devjpatell/devjpatell.github.io/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.8.2",
     "prettier": "^2.8.1"
   },
